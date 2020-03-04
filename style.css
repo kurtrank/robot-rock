@@ -13,10 +13,21 @@ License URI: https://mit-license.org/
 */
 
 body {
-	margin: 0;
+	margin: 0em;
 	font-family: "IBM Plex Mono";
 }
 
 header a {
 	font-weight: 700;
+}
+
+header,
+main {
+	margin: 2em;
+}
+
+footer p {
+	background-color: #eee;
+	padding: 2em;
+	font-style: italic;
 }
