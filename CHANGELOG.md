@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/kurtrank/robot-rock/compare/v1.0.4...v1.0.5) (2020-03-04)
+
+
+### Bug Fixes
+
+* add correct zip filename ([3683a37](https://github.com/kurtrank/robot-rock/commit/3683a37171ad4267e4655aa735442ede89f2e1d5))
+
 ## [1.0.4](https://github.com/kurtrank/robot-rock/compare/v1.0.3...v1.0.4) (2020-03-04)
 
 
