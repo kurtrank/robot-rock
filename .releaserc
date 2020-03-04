@@ -14,7 +14,7 @@
     }],
 		['@semantic-release/github', {
 			"assets": [
-				{"path": "../tux-wp.zip", "label": "TUX WP ${nextRelease.version}"}
+				{"path": "../robot-rock.zip", "label": "robot-rock-${nextRelease.version}"}
 			]
 		}]
 	]
