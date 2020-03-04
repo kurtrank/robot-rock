@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/kurtrank/robot-rock/compare/v1.0.6...v1.1.0) (2020-03-04)
+
+
+### Features
+
+* add support for github updater ([71ae14d](https://github.com/kurtrank/robot-rock/commit/71ae14d4c8c410786aadad113562dab9c74405b2))
+
 ## [1.0.6](https://github.com/kurtrank/robot-rock/compare/v1.0.5...v1.0.6) (2020-03-04)
 
 
