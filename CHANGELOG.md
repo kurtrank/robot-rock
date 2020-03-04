@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/kurtrank/robot-rock/compare/v1.0.3...v1.0.4) (2020-03-04)
+
+
+### Bug Fixes
+
+* **header:** style home link ([5115a38](https://github.com/kurtrank/robot-rock/commit/5115a38bdcd680e845d7d3ba5d236394135fee0e))
+
 ## [1.0.3](https://github.com/kurtrank/robot-rock/compare/v1.0.2...v1.0.3) (2020-03-04)
 
 
