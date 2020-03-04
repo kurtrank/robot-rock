@@ -32,6 +32,6 @@
 
 		<header id="site-header" role="banner">
 
-			<p>Site Header</p>
+			<p><?php bloginfo( 'name' ); ?></p>
 
 		</header>
