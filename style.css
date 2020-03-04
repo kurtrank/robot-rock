@@ -1,0 +1,16 @@
+/******************************************************************
+Theme Name: Robot Rock
+Text Domain: robot-rock
+Version: 1.0.0
+Theme URI: https://github.com/kurtrank/robot-rock
+Description: Example WordPress theme to test automatic updates with Github releases.
+Author: Kurt Rank
+Author URI: https://github.com/kurtrank
+License: MIT
+License URI: https://mit-license.org/
+*/
+
+body {
+	margin: 0;
+	font-family: "IBM Plex Mono";
+}

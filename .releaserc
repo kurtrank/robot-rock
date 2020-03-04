@@ -1,0 +1,21 @@
+{
+	"plugins": [
+		'@semantic-release/commit-analyzer',
+		'@semantic-release/release-notes-generator',
+		["@semantic-release/changelog", {
+      "changelogFile": "CHANGELOG.md",
+    }],
+		['@semantic-release/exec', {
+			"prepareCmd": "npx replace-in-file ${lastRelease.version} ${nextRelease.version} style.css,package.json,package-lock.json && zip -r ../tux-wp.zip . -x@.zip-exclude.lst"
+		}],
+		["@semantic-release/git", {
+      "assets": ["CHANGELOG.md", "style.css", "package.json", "package-lock.json"],
+      "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
+    }],
+		['@semantic-release/github', {
+			"assets": [
+				{"path": "../tux-wp.zip", "label": "TUX WP ${nextRelease.version}"}
+			]
+		}]
+	]
+}
