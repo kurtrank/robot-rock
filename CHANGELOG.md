@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/kurtrank/robot-rock/compare/v1.1.2...v1.1.3) (2020-03-04)
+
+
+### Bug Fixes
+
+* adjust layout ([1bcb795](https://github.com/kurtrank/robot-rock/commit/1bcb79534838fef6d5dd4aec897539efb471e987))
+
 ## [1.1.2](https://github.com/kurtrank/robot-rock/compare/v1.1.1...v1.1.2) (2020-03-04)
 
 
