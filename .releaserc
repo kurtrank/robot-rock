@@ -14,7 +14,7 @@
     }],
 		['@semantic-release/github', {
 			"assets": [
-				{"path": "../robot-rock.zip", "label": "robot-rock-${nextRelease.version}"}
+				{"path": "../robot-rock-${nextRelease.version}.zip", "label": "robot-rock-${nextRelease.version}"}
 			]
 		}]
 	]
