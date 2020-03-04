@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/kurtrank/robot-rock/compare/v1.1.0...v1.1.1) (2020-03-04)
+
+
+### Bug Fixes
+
+* make sure it uses a separate asset ([f53db9d](https://github.com/kurtrank/robot-rock/commit/f53db9d79a3e515218524d5403bf4a279da814ff))
+
 # [1.1.0](https://github.com/kurtrank/robot-rock/compare/v1.0.6...v1.1.0) (2020-03-04)
 
 
