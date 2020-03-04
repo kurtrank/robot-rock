@@ -32,6 +32,7 @@
 
 		<header id="site-header" role="banner">
 
-			<p><?php bloginfo( 'name' ); ?></p>
+			<a href="/"><?php bloginfo( 'name' ); ?></a>
+			<p><?php bloginfo( 'description' ); ?></p>
 
 		</header>
