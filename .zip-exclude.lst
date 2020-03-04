@@ -9,6 +9,8 @@
 .gitignore
 .npmrc
 .zip-exclude.lst
+.releaserc
+.github/*
 blocks/js-blocks/.editorconfig
 blocks/js-blocks/.eslintignore
 blocks/js-blocks/.eslintrc.json
