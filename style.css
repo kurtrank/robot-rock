@@ -14,3 +14,7 @@ body {
 	margin: 0;
 	font-family: "IBM Plex Mono";
 }
+
+header a {
+	font-weight: 700;
+}
