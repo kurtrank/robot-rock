@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/kurtrank/robot-rock/compare/v1.1.3...v1.1.4) (2020-03-11)
+
+
+### Bug Fixes
+
+* **stlye:** update body background ([0a8735e](https://github.com/kurtrank/robot-rock/commit/0a8735e01077ae0f60a3df250f1b656cd22b6ff9))
+
 ## [1.1.3](https://github.com/kurtrank/robot-rock/compare/v1.1.2...v1.1.3) (2020-03-04)
 
 
