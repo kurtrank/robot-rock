@@ -18,6 +18,10 @@ body {
 	background: gainsboro;
 }
 
+header {
+	border-bottom: 3px solid green;
+}
+
 header a {
 	font-weight: 700;
 }
