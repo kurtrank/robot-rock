@@ -1,3 +1,11 @@
+## [1.1.5](https://github.com/kurtrank/robot-rock/compare/v1.1.4...v1.1.5) (2020-03-31)
+
+
+### Bug Fixes
+
+* **footer:** adjust colors ([dd932b6](https://github.com/kurtrank/robot-rock/commit/dd932b6898eb0b800f54be339d9a8b54331e5c06))
+* **header:** add green border ([57caffb](https://github.com/kurtrank/robot-rock/commit/57caffb09ad4fd11fbd6a29c86322e572e91ad27))
+
 ## [1.1.4](https://github.com/kurtrank/robot-rock/compare/v1.1.3...v1.1.4) (2020-03-11)
 
 
