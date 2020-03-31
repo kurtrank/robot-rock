@@ -24,5 +24,5 @@ jobs:
           GIT_AUTHOR_EMAIL: kurtrank@gmail.com
           GIT_COMMITTER_NAME: kurtrank
           GIT_COMMITTER_EMAIL: kurtrank@gmail.com
-          IS_GITHUB_ACTION: true
+          IS_CI: true
         run: npx semantic-release
