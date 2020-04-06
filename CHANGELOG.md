@@ -1,3 +1,10 @@
+# [1.2.0-beta.1](https://github.com/kurtrank/robot-rock/compare/v1.1.5...v1.2.0-beta.1) (2020-04-06)
+
+
+### Features
+
+* **style:** new color scheme ([aa17be6](https://github.com/kurtrank/robot-rock/commit/aa17be6c0a2e938f5417cd5d103ed74dea8347ee))
+
 ## [1.1.5](https://github.com/kurtrank/robot-rock/compare/v1.1.4...v1.1.5) (2020-03-31)
 
 
