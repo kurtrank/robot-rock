@@ -1,47 +1,50 @@
 {
-	"name": "robot-rock",
-	"version": "1.2.0-beta.1",
-	"description": "Example WordPress theme to test automatic updates with Github releases.",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/kurtrank/robot-rock.git"
-	},
-	"author": "Kurt Rank",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/kurtrank/robot-rock/issues"
-	},
-	"homepage": "https://github.com/kurtrank/robot-rock#readme",
-	"devDependencies": {
-		"@commitlint/cli": "^8.3.5",
-		"@commitlint/config-conventional": "^8.3.4",
-		"@semantic-release/changelog": "^5.0.0",
-		"@semantic-release/exec": "^5.0.0",
-		"@semantic-release/git": "^9.0.0",
-		"commitizen": "^4.0.3",
-		"cz-conventional-changelog": "^3.1.0",
-		"husky": "^4.2.3",
-		"replace-in-file": "^5.0.2",
-		"semantic-release": "^17.0.4"
-	},
-	"commitlint": {
-		"extends": [
-			"@commitlint/config-conventional"
-		]
-	},
-	"husky": {
-		"hooks": {
-			"prepare-commit-msg": "[ $IS_CI ] || exec < /dev/tty && git cz --hook || true",
-			"commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-		}
-	},
-	"config": {
-		"commitizen": {
-			"path": "./node_modules/cz-conventional-changelog"
-		}
-	}
+  "name": "robot-rock",
+  "version": "1.2.0",
+  "description": "Example WordPress theme to test automatic updates with Github releases.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurtrank/robot-rock.git"
+  },
+  "author": "Kurt Rank",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurtrank/robot-rock/issues"
+  },
+  "homepage": "https://github.com/kurtrank/robot-rock#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@semantic-release/changelog": "^5.0.0",
+    "@semantic-release/exec": "^5.0.0",
+    "@semantic-release/git": "^9.0.0",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.1.0",
+    "husky": "^4.2.3",
+    "replace-in-file": "^5.0.2",
+    "semantic-release": "^17.0.4"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "[ $IS_CI ] || exec < /dev/tty && git cz --hook || true",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "json": "^9.0.6"
+  }
 }

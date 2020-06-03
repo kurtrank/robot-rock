@@ -6,7 +6,7 @@
       "changelogFile": "CHANGELOG.md",
     }],
 		['@semantic-release/exec', {
-			"prepareCmd": "npx replace-in-file ${lastRelease.version} ${nextRelease.version} style.css,package.json,package-lock.json && zip -r ../robot-rock.zip . -x@.zip-exclude.lst"
+			"prepareCmd": "sh ./release-prep.sh ${nextRelease.version}"
 		}],
 		["@semantic-release/git", {
       "assets": ["CHANGELOG.md", "style.css", "package.json", "package-lock.json"],
