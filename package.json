@@ -1,6 +1,6 @@
 {
   "name": "robot-rock",
-  "version": "1.3.0-beta.1",
+  "version": "1.3.0",
   "description": "Example WordPress theme to test automatic updates with Github releases.",
   "main": "index.js",
   "scripts": {
