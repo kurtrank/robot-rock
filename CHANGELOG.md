@@ -1,3 +1,17 @@
+# [1.3.0-beta.1](https://github.com/kurtrank/robot-rock/compare/v1.2.0...v1.3.0-beta.1) (2020-06-03)
+
+
+### Bug Fixes
+
+* correct script path ([f8af4aa](https://github.com/kurtrank/robot-rock/commit/f8af4aabed6565f04986a7950bdc78684cfa57b4))
+* update copy in footer ([0682630](https://github.com/kurtrank/robot-rock/commit/068263037c3ca0d55754bc74566a51cb7eba2bed))
+
+
+### Features
+
+* update link color ([3801fe5](https://github.com/kurtrank/robot-rock/commit/3801fe5c44b1d027d7860a4355f93fd984435208))
+* **style:** new color scheme ([aa17be6](https://github.com/kurtrank/robot-rock/commit/aa17be6c0a2e938f5417cd5d103ed74dea8347ee))
+
 # [1.2.0](https://github.com/kurtrank/robot-rock/compare/v1.1.5...v1.2.0) (2020-06-03)
 
 
